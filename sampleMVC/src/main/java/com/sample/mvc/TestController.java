@@ -33,7 +33,7 @@ public class TestController {
 		} catch (Exception e) {
 			logger.info(e.getMessage());
 		}
-		
+		System.out.println("test");
 		return "handlebars";
 	}
 	
